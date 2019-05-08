@@ -11,7 +11,7 @@ public abstract class Beverage extends MenuItem {
     }
 
     public String sizeAsString(){
-        String sizeAsString = "Small";//Default String for default size
+        String sizeAsString = "Small";//Default String matching default beverage size
 
         switch (this.size) {
             case SMALL:

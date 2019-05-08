@@ -4,7 +4,7 @@ import com.example.CoffeeShop.model.beverages.types.Beverage;
 
 import java.math.BigDecimal;
 
-public class Milk extends BeverageAddative {
+public class Milk extends BeverageAdditive {
 
     public Milk(Beverage beverage) {
         this.beverage = beverage;

@@ -18,16 +18,16 @@ public class BeverageFactory {
         Collections.sort(addatives);
 
         for (Enum addative:addatives){
-            if (addative == BeverageAddatives.CREAM){
+            if (addative == BeverageAdditives.CREAM){
                 beverage = new Cream(beverage);
             }
-            if (addative == BeverageAddatives.MILK){
+            if (addative == BeverageAdditives.MILK){
                 beverage = new Milk(beverage);
             }
-            if (addative == BeverageAddatives.SUGAR){
+            if (addative == BeverageAdditives.SUGAR){
                 beverage = new Sugar(beverage);
             }
-            if (addative == BeverageAddatives.ESPRESSO){
+            if (addative == BeverageAdditives.ESPRESSO){
                 beverage = new Espresso(beverage);
             }
         }
